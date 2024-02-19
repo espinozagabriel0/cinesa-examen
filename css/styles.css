@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    background-color: #07152B;
+    font-family: "Nunito Sans", sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 110rem;
+    margin: 0 auto;
+    padding: 2rem 0;
+    /* width: 1600px; */
+    /* border: 1px solid red; */
+}
+main, footer{
+    margin-top: 1.75rem;    
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+}
+/* Header */
+#header{
+    color: #ffffff;
+}
+#header nav{
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem .5rem;
+}
+nav > ul{
+    gap: 1.75rem;
+}
+.logo{
+    width: 10rem;
+}
+/* inicio */
+#header .inicio{
+    height: 25rem;
+    background: url("../images/bob-marley-one-love.jpg") no-repeat;
+    background-size: cover;
+}
+.inicio_content{
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 4rem;
+    gap: 1.75rem;
+
+}
+.inicio_content .btn{
+    padding: .5rem 1rem;
+    cursor: pointer;
+    background-color: rgb(23, 122, 202);
+}
+/* Main */
+#main{
+    color: #ffffff;
+}
+#main h2{
+    text-align: center;
+    margin-bottom: 1.6rem;
+}
+#main .cards_pelis h3{
+    font-weight: 900;
+    font-size: 1.5rem;
+    display: flex;
+    height: 100%;
+    align-items: end;
+}
+#main .cards_pelis{
+    align-items: center;
+    justify-content: space-evenly;
+}
+#main .cards_pelis .card{
+    height: 19rem;
+    flex: 1;
+    max-width: 12rem;
+}
+#main .cards_pelis .card:nth-child(1){
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/m3gan.jpg") no-repeat;
+    background-size: cover;
+}
+#main .cards_pelis .card:nth-child(2){
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/vecino.jpg") no-repeat;
+    background-size: cover;
+}
+#main .cards_pelis .card:nth-child(3){
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/avatar.jpg") no-repeat;
+    background-size: cover;
+}
+#main .cards_pelis .card:nth-child(4){
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/gato.jpg") no-repeat;
+    background-size: cover;
+}
+
+.salas{
+    margin: 2rem 0;
+    height: 20rem;
+    background: url("../images/banner.jpg") no-repeat;
+    background-size: cover;
+}
+.salas_texto{
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+.salas_texto a, i{
+    color: #19aaff;
+}
+
+.ofertas{
+    padding: 1rem;
+}
+.ofertas h2{
+    text-align: center;
+}
+.ofertas .cards{
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+.ofertas img{
+    width: 100%;
+}
+.ofertas .card{
+    max-width: 20rem;
+}
+.ofertas .card a, i{
+    color: #19aaff;
+}
+.ofertas .card_text{
+    background-color: #ffffff;
+    color: rgb(85, 82, 82);
+    display: flex;
+    padding: .5rem;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+.ofertas .card_text p{
+    margin-bottom: 3rem;
+}
+
