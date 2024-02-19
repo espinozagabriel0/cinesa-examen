@@ -150,4 +150,10 @@ nav > ul{
 .ofertas .card_text p{
     margin-bottom: 3rem;
 }
-
+#footer .cards{
+    justify-content: center;
+    padding: 2rem 0;
+}
+#footer .card a{
+    color: #ffffff;
+}
